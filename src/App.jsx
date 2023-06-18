@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
-import ABI from "../../web3Contract/artifacts/contracts/BuyMeACoffee.sol/BuyMeACoffee.json";
-import { ContractAddress } from "../config.js";
+import { ABI, ContractAddress } from "../config.js";
 import Users from "./Users";
 
 const App = () => {
